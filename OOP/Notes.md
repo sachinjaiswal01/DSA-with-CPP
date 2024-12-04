@@ -21,6 +21,3 @@ automatically called when object is created.
 
 ## 2.parameter constructor
 take parameters
-
-## 3.copy constructor
-
