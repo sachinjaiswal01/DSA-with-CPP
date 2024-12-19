@@ -48,10 +48,12 @@ void insertAtTail(Node* &tail ,int d){
 
 
 void insertAtPosition (Node* &tail,Node* &head,int position, int d){
+    
     if(position ==1){
         insertAtHead(head,d);
         return;
     }
+    
     Node* temp = head;
     int cnt =1;
     while(cnt <position){
